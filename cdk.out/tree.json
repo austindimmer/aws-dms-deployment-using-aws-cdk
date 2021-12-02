@@ -1283,7 +1283,7 @@
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::DMS::ReplicationInstance",
               "aws:cdk:cloudformation:props": {
-                "replicationInstanceClass": "dms.r5.2xlarge",
+                "replicationInstanceClass": "dms.r5.xlarge",
                 "autoMinorVersionUpgrade": true,
                 "engineVersion": "3.4.3",
                 "multiAz": true,
@@ -1532,7 +1532,7 @@
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::DMS::ReplicationInstance",
               "aws:cdk:cloudformation:props": {
-                "replicationInstanceClass": "dms.r5.2xlarge",
+                "replicationInstanceClass": "dms.r5.xlarge",
                 "autoMinorVersionUpgrade": true,
                 "engineVersion": "3.4.3",
                 "multiAz": true,
@@ -1633,7 +1633,7 @@
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::DMS::ReplicationInstance",
               "aws:cdk:cloudformation:props": {
-                "replicationInstanceClass": "dms.r5.2xlarge",
+                "replicationInstanceClass": "dms.r5.xlarge",
                 "autoMinorVersionUpgrade": true,
                 "engineVersion": "3.4.3",
                 "multiAz": true,
@@ -1808,7 +1808,7 @@
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::DMS::ReplicationInstance",
               "aws:cdk:cloudformation:props": {
-                "replicationInstanceClass": "dms.r5.2xlarge",
+                "replicationInstanceClass": "dms.r5.xlarge",
                 "autoMinorVersionUpgrade": true,
                 "engineVersion": "3.4.3",
                 "multiAz": true,
@@ -1983,7 +1983,7 @@
             "attributes": {
               "aws:cdk:cloudformation:type": "AWS::DMS::ReplicationInstance",
               "aws:cdk:cloudformation:props": {
-                "replicationInstanceClass": "dms.r5.2xlarge",
+                "replicationInstanceClass": "dms.r5.xlarge",
                 "autoMinorVersionUpgrade": true,
                 "engineVersion": "3.4.3",
                 "multiAz": true,

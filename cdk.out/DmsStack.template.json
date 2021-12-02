@@ -21,7 +21,7 @@
     "dbserver1instance": {
       "Type": "AWS::DMS::ReplicationInstance",
       "Properties": {
-        "ReplicationInstanceClass": "dms.r5.2xlarge",
+        "ReplicationInstanceClass": "dms.r5.xlarge",
         "AutoMinorVersionUpgrade": true,
         "EngineVersion": "3.4.3",
         "MultiAZ": true,
@@ -220,7 +220,7 @@
     "dbserver2instance": {
       "Type": "AWS::DMS::ReplicationInstance",
       "Properties": {
-        "ReplicationInstanceClass": "dms.r5.2xlarge",
+        "ReplicationInstanceClass": "dms.r5.xlarge",
         "AutoMinorVersionUpgrade": true,
         "EngineVersion": "3.4.3",
         "MultiAZ": true,
@@ -301,7 +301,7 @@
     "dbserver3instance": {
       "Type": "AWS::DMS::ReplicationInstance",
       "Properties": {
-        "ReplicationInstanceClass": "dms.r5.2xlarge",
+        "ReplicationInstanceClass": "dms.r5.xlarge",
         "AutoMinorVersionUpgrade": true,
         "EngineVersion": "3.4.3",
         "MultiAZ": true,
@@ -441,7 +441,7 @@
     "dbserver4instance": {
       "Type": "AWS::DMS::ReplicationInstance",
       "Properties": {
-        "ReplicationInstanceClass": "dms.r5.2xlarge",
+        "ReplicationInstanceClass": "dms.r5.xlarge",
         "AutoMinorVersionUpgrade": true,
         "EngineVersion": "3.4.3",
         "MultiAZ": true,
@@ -581,7 +581,7 @@
     "dbserver5instance": {
       "Type": "AWS::DMS::ReplicationInstance",
       "Properties": {
-        "ReplicationInstanceClass": "dms.r5.2xlarge",
+        "ReplicationInstanceClass": "dms.r5.xlarge",
         "AutoMinorVersionUpgrade": true,
         "EngineVersion": "3.4.3",
         "MultiAZ": true,
@@ -694,7 +694,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAAE12NywrCMBBFv6X7OG0pgkuhiLiT1h+Ik4hj7SQkE0VK/90+VrqaC+feMyWURQVFttfvuEHT5QO6YGFoRWOnasdRQkJR9Y0bG10KaOc8AUNCjkc1D00fYVgq/kmoZ9CmK1s5Bpe8+iWnyal59RzYeEcsf5WLjt2CX5ZlMkUM5Jd3ozp/5O44r2AH2+wRiTYhsVBvoVnvF7SYrfnTAAAA"
+        "Analytics": "v2:deflate64:H4sIAAAAAAAAA12O0Q6CMAxFv8X3MSD8gAkxxjcD/sDsZqxIu2ydxhD+3QFP+tQm5/b01rquGl3t9uYdC7BDOQEHp6deDAyqZYoSEohqb9S5yCmAW/YMLAoyzWo5tGPU0xrxTwSzgD5dyckxcPLql5yy09DmOZD1jCR/kYuJw4pfjiSbIgT067tZnT9yZyqbXDz3fkTEIiQSHJ3utvkFvPRyRNQAAAA="
       },
       "Metadata": {
         "aws:cdk:path": "DmsStack/CDKMetadata/Default"

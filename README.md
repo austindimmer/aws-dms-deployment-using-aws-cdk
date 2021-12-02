@@ -5,7 +5,7 @@ This package contains the automation approach for deploying multiple DMS tasks f
 **What does this DMS-CDK approach provides?**
 
 1.	Reduce the manual effort in creating migration task(s), Source end-point, target end-point and replication instances for database(s) that needs migration to S3 or other targets.
-
+.
 2.	Ability to scale incremental database migrations by adding database details to parameter file with no code changes.
 
 3.	Simplify the multi-stage process of creating DMS tasks as a single step.
@@ -103,7 +103,7 @@ This script will create one secret for each in the credentials.csv file.
 1.	cd ~/aws_dms_cdk_automation/aws-dms-cdk-automation
 2.	Check the stacks that will be deployed as part of this package.
 
-    aws-dms-cdk-automation % cdk ls
+    dms_cdk_stack % cdk ls
     IamStack
     S3Stack
     SnsStack

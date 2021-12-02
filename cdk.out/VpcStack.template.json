@@ -587,7 +587,7 @@
     "CDKMetadata": {
       "Type": "AWS::CDK::Metadata",
       "Properties": {
-        "Analytics": "v2:deflate64:H4sIAAAAAAAAE0VPywrCMBD8Fu8xPorgUSkivUhoxXu6rhirG0k2Fin9dxtfOc3szOywO5OzaSano5Vu/RiOzaQD61B2FWtoRIneBgcockueXQAW+YmSeqLBOBo2lnoRGxDmsjvcIVoHlQsV6quBKtSE79XEShsY97q+YtKTtvbegtGx+B+OZFOoCDvNW83Y6qdQzjwGmooLYnQD/wU+l3ynNQ9/nW9I3PdCPflsaZLJpVyMLt6YsQvE5oay/OALqPa4BB0BAAA="
+        "Analytics": "v2:deflate64:H4sIAAAAAAAAA0VQSQ7CMAx8C/cQtg+AKoS4oKhFvafGiEBxUOJQVVX/TsKW04zH45HthVzMV3I+WevOT+F0mw1gHcqhYg03UaK3wQGKwpJnF4BFcaasnik2ToaNpVGkBISlHOoHpFatCqFC0xqoQkP4Hs2stIHxqJsWs561jfcWjE7Bf3Mi271KcNC804yd7oVy5hlpDt4To4v8Z/hs8q02HO+63JF4HIXq+WJptooviB+4emOmLhCbO8rygy+dvY5QHgEAAA=="
       },
       "Metadata": {
         "aws:cdk:path": "VpcStack/CDKMetadata/Default"
